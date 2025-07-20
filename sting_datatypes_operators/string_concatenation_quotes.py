@@ -44,3 +44,5 @@ product = "laptop"
 cost = 1200
 info = "The {} costs ${}.".format(product, cost)
 print(info) 
+
+
