@@ -6,6 +6,7 @@ for i in range(1,13):
         print("{0} times {1} is {2}".format(j,i,i*j))
     print("-----------------------------")
 
+#
 # Exercise 1: Print a Rectangle of Stars
 
 for i in range(4):
