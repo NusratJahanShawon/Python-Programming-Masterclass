@@ -54,5 +54,5 @@ print()
 for meal in menu:
     for item in meal:
         if item != "spam":
-            print(item)
+            print(item, end=", ")
     print()
