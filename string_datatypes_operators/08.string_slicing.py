@@ -60,4 +60,45 @@ print(letters[4 : : -1])
 #last 8 chaaracter in reverse order
 print(letters[ : -9:-1 ])
 
- 
+#--------------------------------------------------
+age= 25
+print(type(age))
+age="25"
+print(type(age)) 
+
+my_list = [10, 20, 30]
+
+# Get iterator
+my_iter = iter(my_list)
+
+# Use next() to manually get items
+print(next(my_iter))  # 10
+print(next(my_iter))  # 20
+print(next(my_iter))  # 30
+
+# String + Array Manipulation
+# for i in range(1,13):
+text = "Hello world Python is fun"
+print(text)
+result = text.split()
+print(result)
+
+# ----
+data = "apple,banana,cherry"
+result = data.split(",")
+print(result)
+
+# ------
+date = "2025-07-16"
+result = date.split("-")
+print(result)
+
+#===
+emails = ["alice@abc.com", "bob@company.org", "charlie@xyz.net"]
+
+results = []
+for email in emails:
+    name, domain = email.split('@', 1)
+    results.append([name, '@' + domain])
+
+print(results)
