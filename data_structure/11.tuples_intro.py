@@ -20,3 +20,14 @@ imelda = "More Mayhem", "Emilda May", 2011
 metallica = "Ride the Lightning", "Metallica", 1984
 
 print(metallica)
+
+# metallica[0]="Master of pupptes" # this line will give and error as we cant change it
+
+# to change in a tuple we can first make it list
+
+metallica2=list(metallica)
+print(metallica2)
+
+#changing
+metallica2[0]="Master of puppets"
+print(metallica2)
