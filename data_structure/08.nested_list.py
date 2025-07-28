@@ -47,7 +47,6 @@ for meal in menu:
         if meal[index] == "spam":
             del meal[index]
     print(meal)
-
 print()
 
 #--- another approch---
