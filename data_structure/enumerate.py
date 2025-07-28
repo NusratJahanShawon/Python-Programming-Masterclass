@@ -2,3 +2,8 @@
 
 for index, char in enumerate("asdfghj"):
     print(index, char)
+
+
+#another way
+for t in enumerate("abcdefghi"):
+    print(t)

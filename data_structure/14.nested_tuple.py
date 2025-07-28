@@ -1,38 +1,3 @@
-
-#-------
-# emails = input_string.split(",")
-# company_emails = []
-
-# for email in emails:
-#     if email.endswith("@company.com"):
-#         company_emails.append(email)
-        
-#     return company_emails
-
-
-#==========================================
-# Object Filtering
-#You have a list of users with age and country.
-# Return all users above 30 and from Bangladesh.
-# [
-#   {"name": "A", "age": 32, "country": "Bangladesh"},
-#   {"name": "B", "age": 25, "country": "India"},
-#   {"name": "C", "age": 35, "country": "Bangladesh"}
-# ]
-
-# 1. result = []
-
-# 2. for user in users:
-#      if user.age > 30 and user.country == "Bangladesh":
-#          result.append(user)
-
-# 3. return result
-
-#==========================
-# counting words
-#  
-
-
 albums = [
     ("Welcome to my Nightmare", "Alice Cooper", 1975,
      [
@@ -72,3 +37,37 @@ albums = [
      ]
      ),
 ]
+
+# for name, artist,year, songs in albums:
+#     print("Album:{}, Artist:{}, year:{} and songs:{}"
+#           .format(name,artist,year,songs))
+        
+# print()
+
+# album = albums[2]
+# print(album)
+
+# songs=album[3]
+# print(songs)
+
+# song =songs[2]
+# print(songs)
+# print(song[1])
+
+
+# easy way to get data by indexing 
+
+mayhem=albums[3][3][2][1]
+print(mayhem)
+
+
+# practice
+theway=albums[1][3][5][1]
+print(theway)
+
+released_year=albums[2][2]
+print(released_year)
+
+trackno=albums[3][3][3][0]
+print(trackno)
+
