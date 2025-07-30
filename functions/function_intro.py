@@ -27,3 +27,17 @@ def multiply(x,y):
 
 answer=multiply(10, 3)
 print(answer)
+
+#-----------Palindrom checking with words-----------
+def is_palindrom(string):
+    backwards =string[: : -1].casefold()
+    return backwards == string.casefold()
+
+
+word= input("ENter a word to check: ")
+if is_palindrom(word):
+    print("'{}' is a palindrome.".format(word))
+else: 
+    print("Not")
+
+# --------palindrom checking sentance-----
