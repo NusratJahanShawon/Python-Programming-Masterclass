@@ -41,3 +41,27 @@ else:
     print("Not")
 
 # --------palindrom checking sentance-----
+def palindrom_sentence(sentence):
+    string=""
+    for char in sentence:
+        if char.isalnum():
+            string += char
+    return string[: : -1].casefold() == string.casefold()
+    # return is_palindrom(string)
+
+
+word= input("ENter a sentance to check: ")
+if is_palindrom(word):
+    print("'{}' is a palindrome.".format(word))
+else: 
+    print("Not")
+
+# here just a note that if we need to return a value u must return it in our function
+# def multiply():
+#     result = 10.5 * 4 # Here's no return function is given so will return none
+
+
+# answer=multiply(3,5)
+# print(answer)
+
+
