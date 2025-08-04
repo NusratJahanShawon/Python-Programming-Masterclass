@@ -8,12 +8,17 @@ MAGENTA = '\u001b[35m'
 CYAN = '\u001b[36m'
 WHITE = '\u001b[37m'
 RESET = '\u001b[0m'
-
+ 
 BOLD = '\u001b[1m'
 UNDERLINE = '\u001b[4m'
 REVERSE = '\u001b[7m'
 
+print(RED, "this will be in red")
+print(MAGENTA, "this will be in magenta")
 
+print("the color will be same unlesss we cancle them ")
+
+#trying with function
 def colour_print(text: str, effect: str) -> None:
     """
     Print `text` using the ANSI sequences to change colour, etc
