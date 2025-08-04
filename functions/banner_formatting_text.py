@@ -1,4 +1,4 @@
-def banner_text(text="  ", screen_width=80): # here screem_width=80 is default parameter value
+def banner_text(text: str="  ", screen_width:int=80) -> None: # here screem_width=80 is default parameter value
     # screen_width = 80
     if len(text) > screen_width - 4:
         print("EEK!!")
