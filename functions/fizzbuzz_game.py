@@ -21,5 +21,11 @@ def fizz_buzz(n: int) -> str:
         return str(n)
 
 # Test the function from 1 to 100
-for i in range(1, 101):
-    print(fizz_buzz(i))
+# for i in range(1, 101):
+#     print(fizz_buzz(i))
+
+input("Play Fizz Buzz. Press ENTER to start")
+print()
+
+next_number= 0
+
