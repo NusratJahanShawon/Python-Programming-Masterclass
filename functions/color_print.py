@@ -31,6 +31,8 @@ def colour_print(text: str, effect: str) -> None:
     print(output_string)
 
 
+
+
 colour_print("Hello, Red", RED)
 # test that the colour was reset
 print("This should be in the default terminal colour")
